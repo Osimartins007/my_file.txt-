@@ -6,8 +6,8 @@ try:
     with open("my_file.txt", "w") as file:
         # Writing three lines of text to the file
         file.write("Hello, World!\n")
-        file.write("Python is fun.\n")
-        file.write("The answer to everything is 42.\n")
+        file.write("Python is super fun.\n")
+        file.write("The answer to everything is 33.\n")
     print("File 'my_file.txt' created and initial content written successfully.")
 except Exception as e:
     print(f"An error occurred while creating or writing to the file: {e}")
